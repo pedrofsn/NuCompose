@@ -33,7 +33,7 @@ fun NuAccountDashboard() {
     ) {
         Column(
             modifier = Modifier
-                .padding(all = 10.dp)
+                .padding(all = 20.dp)
                 .background(Color.White)
         ) {
             Row(
