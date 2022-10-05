@@ -1,4 +1,4 @@
-package br.com.velantasistemas.koincompose.ui.components
+package br.com.pedrofsn.nucompose.ui.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
@@ -12,8 +12,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import br.com.velantasistemas.koincompose.R
-import br.com.velantasistemas.koincompose.ui.model.AccountMenuItem
+import br.com.pedrofsn.nucompose.R
+import br.com.pedrofsn.nucompose.ui.model.AccountMenuItem
 import com.google.accompanist.pager.ExperimentalPagerApi
 import com.google.accompanist.pager.HorizontalPager
 
@@ -40,7 +40,7 @@ fun AccountMenu() {
 
 @Preview(showBackground = true)
 @Composable
-fun previewAccountMenuItem() {
+fun PreviewAccountMenuItem() {
     AccountMenuItem(AccountMenuItem(title = "Teste", image = R.drawable.ic_eye_open))
 }
 

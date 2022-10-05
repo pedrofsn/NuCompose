@@ -1,4 +1,4 @@
-package br.com.velantasistemas.koincompose.ui.components
+package br.com.pedrofsn.nucompose.ui.components
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.Image
@@ -21,14 +21,14 @@ import androidx.compose.ui.text.font.FontFamily.Companion.Monospace
 import androidx.compose.ui.text.font.FontWeight.Companion.W100
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import br.com.velantasistemas.koincompose.R
-import br.com.velantasistemas.koincompose.ui.theme.NuPurpleBall
-import br.com.velantasistemas.koincompose.ui.theme.NuToolbarBackground
+import br.com.pedrofsn.nucompose.R
+import br.com.pedrofsn.nucompose.ui.theme.NuPurpleBall
+import br.com.pedrofsn.nucompose.ui.theme.NuToolbarBackground
 
 
 @Preview(showBackground = true)
 @Composable
-fun preview() {
+fun Preview() {
     NuToolbar()
 }
 

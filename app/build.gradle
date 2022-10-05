@@ -7,7 +7,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "br.com.velantasistemas.koincompose"
+        applicationId "br.com.pedrofsn.nucompose"
         minSdk 21
         targetSdk 32
         versionCode 1

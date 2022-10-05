@@ -1,9 +1,9 @@
-package br.com.velantasistemas.koincompose.ui.theme
+package br.com.pedrofsn.nucompose.ui.theme
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.colorResource
 import androidx.core.graphics.toColorInt
-import br.com.velantasistemas.koincompose.R
+import br.com.pedrofsn.nucompose.R
 
 val Purple200 = Color(0xFFBB86FC)
 val Purple500 = Color(0xFF6200EE)

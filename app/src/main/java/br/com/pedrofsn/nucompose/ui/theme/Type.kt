@@ -1,4 +1,4 @@
-package br.com.velantasistemas.koincompose.ui.theme
+package br.com.pedrofsn.nucompose.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

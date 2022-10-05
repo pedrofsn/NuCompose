@@ -1,4 +1,4 @@
-package br.com.velantasistemas.koincompose.ui.model
+package br.com.pedrofsn.nucompose.ui.model
 
 import androidx.annotation.DrawableRes
 
