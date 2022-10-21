@@ -1,5 +1,6 @@
 package br.com.pedrofsn.nucompose.ui.components
 
+import androidx.annotation.DrawableRes
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement.SpaceBetween
@@ -84,15 +85,20 @@ private fun CustomTopAppBar() {
 
 @Composable
 private fun NuIconProfile() {
+    NuButton(image = R.drawable.ic_person)
+}
+
+@Composable
+fun NuButton(color: Color = NuPurpleBall, @DrawableRes image: Int, imageSize: Int = 40) {
     Box(contentAlignment = Alignment.Center, modifier = Modifier.padding(10.dp)) {
         Canvas(modifier = Modifier.size(60.dp)) {
-            drawCircle(color = NuPurpleBall)
+            drawCircle(color = color)
         }
         Image(
-            painter = painterResource(id = R.drawable.ic_person),
+            painter = painterResource(id = image),
             contentDescription = "Person",
             contentScale = ContentScale.Fit,
-            modifier = Modifier.size(40.dp)
+            modifier = Modifier.size(imageSize.dp)
         )
     }
 }
