@@ -11,4 +11,5 @@ val Purple700 = Color(0xFF3700B3)
 val Teal200 = Color(0xFF03DAC5)
 
 val NuPurpleBall = Color(0xFF9C03FC)
+val NuGrayBall = Color(0xFFF0F1F5)
 val NuToolbarBackground = Color(0xFF830AD1)

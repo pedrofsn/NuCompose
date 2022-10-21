@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import br.com.pedrofsn.nucompose.ui.components.NuAccountDashboard
+import br.com.pedrofsn.nucompose.ui.components.NuAccountMenu
 import br.com.pedrofsn.nucompose.ui.components.NuToolbar
 import br.com.pedrofsn.nucompose.ui.theme.KoinComposeTheme
 
@@ -33,12 +34,7 @@ fun NuBank() {
 @Composable
 fun NuAccount() {
     NuAccountDashboard()
-    NuViewpager()
-}
-
-@Composable
-fun NuViewpager() {
-
+    NuAccountMenu()
 }
 
 
