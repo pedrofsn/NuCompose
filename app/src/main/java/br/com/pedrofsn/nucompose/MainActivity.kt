@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Column
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
+import br.com.pedrofsn.nucompose.ui.components.MyCards
 import br.com.pedrofsn.nucompose.ui.components.NuAccount
 import br.com.pedrofsn.nucompose.ui.components.NuAccountMenu
 import br.com.pedrofsn.nucompose.ui.components.NuToolbar
@@ -29,6 +30,7 @@ fun NuBank() {
         NuToolbar()
         NuAccount()
         NuAccountMenu()
+        MyCards()
     }
 }
 
