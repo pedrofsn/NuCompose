@@ -20,12 +20,12 @@ import br.com.pedrofsn.nucompose.R
 
 @Preview(showBackground = true)
 @Composable
-fun PreviewNuAccountDashboard() {
-    NuAccountDashboard()
+fun PreviewNuAccount() {
+    NuAccount()
 }
 
 @Composable
-fun NuAccountDashboard() {
+fun NuAccount() {
     Row(
         horizontalArrangement = Arrangement.SpaceBetween,
         modifier = Modifier.fillMaxWidth(),
