@@ -10,6 +10,7 @@ import br.com.pedrofsn.nucompose.ui.components.MyCards
 import br.com.pedrofsn.nucompose.ui.components.NuAccount
 import br.com.pedrofsn.nucompose.ui.components.NuAccountMenu
 import br.com.pedrofsn.nucompose.ui.components.NuToolbar
+import br.com.pedrofsn.nucompose.ui.components.Offers
 import br.com.pedrofsn.nucompose.ui.theme.KoinComposeTheme
 
 class MainActivity : ComponentActivity() {
@@ -31,6 +32,7 @@ fun NuBank() {
         NuAccount()
         NuAccountMenu()
         MyCards()
+        Offers()
     }
 }
 
